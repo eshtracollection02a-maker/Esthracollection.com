@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f1e8;
+}
+
+.navbar {
+    padding: 20px;
+    background: #4a2946;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: #d1b7d4;
+}
+
+.featured {
+    text-align: center;
+    padding: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
